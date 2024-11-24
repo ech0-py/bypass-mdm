@@ -60,6 +60,9 @@ select opt in "${options[@]}"; do
             echo "0.0.0.0 deviceenrollment.apple.com" >>/Volumes/"$system_volume"/etc/hosts
             echo "0.0.0.0 mdmenrollment.apple.com" >>/Volumes/"$system_volume"/etc/hosts
             echo "0.0.0.0 iprofiles.apple.com" >>/Volumes/"$system_volume"/etc/hosts
+            echo "0.0.0.0 gdmf.apple.com" >>/Volumes/"$system_volume"/etc/hosts
+            echo "0.0.0.0 acmdm.apple.com" >>/Volumes/"$system_volume"/etc/hosts
+            echo "0.0.0.0 albert.apple.com" >>/Volumes/"$system_volume"/etc/hosts
             echo -e "${GRN}Successfully blocked MDM & Profile Domains"
 
             # Remove configuration profiles
