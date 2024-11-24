@@ -11,7 +11,7 @@
 
 #### Follow steps below to bypass MDM setup during a fresh installation of MacOS
 
-> Upon arriving to the setup stage of forced MDM enrollement:
+> Upon arriving to the setup stage of forced MDM enrollement (just shut down after you see "choose your region"):
 
 1. Long press Power button to forcefully shut down your Mac.
 
